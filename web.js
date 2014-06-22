@@ -1,13 +1,13 @@
 // requires modules and port===================================================
 var express = require('express'),
     passport = require('passport'),
-    requestHandlers = require('requestHandlers'),
+    requestHandlers = require('./requestHandlers.js'),
     port = Number(process.env.PORT || 5000);
 
 // configures app =============================================================
 var app = express();
 
-//app.configure(function() {
+app.configure(function() {
 
     // configures Express
     app.use(express.logger('dev'));
@@ -27,7 +27,7 @@ var app = express();
     // configures EJS
     app.set('views', __dirname + '/views');
     app.set('view engine', 'ejs');
-//});
+});
 
 // defines routes =============================================================
 app.get('/', requestHandlers.index);
