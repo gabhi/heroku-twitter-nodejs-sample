@@ -1,23 +1,12 @@
 {
-  "name": "heroku-twitter-nodejs-sample",
-  "version": "0.0.0",
-  "description": "",
-  "main": "web.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gabhi/heroku-twitter-nodejs-sample.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gabhi/heroku-twitter-nodejs-sample/issues"
-  },
-  "homepage": "https://github.com/gabhi/heroku-twitter-nodejs-sample",
-  "dependencies": {
-    "logfmt": "^1.1.2",
-    "express": "^4.4.4"
+  "name"         : "passport-twitter-with-express3",
+  "description"  : "An application that includes passport-twitter",
+  "author"       : "Cho S. Kim (https://github.com/choskim)",
+  "main"         : "server.js",
+  "dependencies" : {
+    "ejs"              : "0.8.5", 
+    "express"          : "3.5.2", 							
+    "passport"         : "0.1.17", 		
+    "passport-twitter" : "1.0.2" 	
   }
 }
