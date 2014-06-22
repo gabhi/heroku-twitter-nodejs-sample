@@ -9,6 +9,7 @@
     "passport-twitter": "1.0.2",
     "express": "^4.4.4",
     "utils-merge": "^1.0.0",
-    "escape-html": "^1.0.1"
+    "escape-html": "^1.0.1",
+    "debug": "^1.0.2"
   }
 }
