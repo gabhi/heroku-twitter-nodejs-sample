@@ -7,7 +7,7 @@ var express = require('express'),
 // configures app =============================================================
 var app = express();
 
-app.configure(function() {
+//app.configure(function() {
 
     // configures Express
     app.use(express.logger('dev'));
@@ -27,7 +27,7 @@ app.configure(function() {
     // configures EJS
     app.set('views', __dirname + '/views');
     app.set('view engine', 'ejs');
-});
+//});
 
 // defines routes =============================================================
 app.get('/', requestHandlers.index);

@@ -1,16 +1,12 @@
 {
-  "name": "passport-twitter-with-express3",
-  "description": "An application that includes passport-twitter",
-  "author": "Cho S. Kim (https://github.com/choskim)",
-  "main": "web.js",
-  "dependencies": {
-    "ejs": "0.8.5",
-    "passport": "0.1.17",
-    "passport-twitter": "1.0.2",
-    "express": "^4.4.4",
-    "utils-merge": "^1.0.0",
-    "escape-html": "^1.0.1",
-    "debug": "^1.0.2",
-    "finished": "^1.2.2"
+  "name"         : "passport-twitter-with-express3",
+  "description"  : "An application that includes passport-twitter",
+  "author"       : "Cho S. Kim (https://github.com/choskim)",
+  "main"         : "server.js",
+  "dependencies" : {
+    "ejs"              : "0.8.5", 
+    "express"          : "3.5.2", 							
+    "passport"         : "0.1.17", 		
+    "passport-twitter" : "1.0.2" 	
   }
 }
