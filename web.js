@@ -1,7 +1,7 @@
 // requires modules and port===================================================
 var express = require('express'),
     passport = require('passport'),
-    requestHandlers = require('./requestHandlers.js'),
+    requestHandlers = require('./requestHandlers'),
     port = Number(process.env.PORT || 5000);
 
 // configures app =============================================================
