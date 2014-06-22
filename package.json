@@ -5,8 +5,8 @@
   "main": "web.js",
   "dependencies": {
     "ejs": "0.8.5",
-    "express": "^3.5.2",
     "passport": "0.1.17",
-    "passport-twitter": "1.0.2"
+    "passport-twitter": "1.0.2",
+    "express": "^4.4.4"
   }
 }
